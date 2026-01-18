@@ -56,4 +56,12 @@ Clases de dominio y lógica de negocio:
 
 -GestorCola.java: Implementa la lógica FIFO de la cola
 
+Vista (vista/)
+Interfaz de usuario:
 
+-VistaConsola.java: Interfaz por consola con menús interactivos
+
+Controlador (controlador/)
+Lógica de aplicación:
+
+-Controlador.java: Coordina las interacciones entre modelo y vista
