@@ -38,6 +38,18 @@ cd src
 
    java Main
 
+3. Arquitectura del Sistema
 
+Patrón Modelo–Vista–Controlador (MVC)
+
+El proyecto sigue estrictamente el patrón arquitectónico MVC para garantizar modularidad, mantenibilidad y escalabilidad.
+
+Modelo (modelo/)
+
+Clases de dominio y lógica de negocio:
+-Usuario.java: Representa a un usuario/cliente
+-Servicio.java: Define los servicios disponibles
+-Turno.java: Gestiona el estado y ciclo de vida del turno
+-GestorCola.java: Implementa la lógica FIFO de la cola
 
 
