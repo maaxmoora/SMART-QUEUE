@@ -50,7 +50,7 @@ SmartQueue - Sistema de Gestión de Turnos
    
    -Usuario.java: Representa a un usuario/cliente
    
-   -Servicio.java: Define los servicios disponibles
+   -servicio.java: Define los servicios disponibles
    
    -Turno.java: Gestiona el estado y ciclo de vida del turno
    
@@ -59,7 +59,7 @@ SmartQueue - Sistema de Gestión de Turnos
    Vista (vista/)
    Interfaz de usuario:
    
-   -VistaConsola.java: Interfaz por consola con menús interactivos
+   VistaConsola.java: Interfaz por consola con menús interactivos
    
    Controlador (controlador/)
    Lógica de aplicación:
@@ -228,8 +228,66 @@ SmartQueue - Sistema de Gestión de Turnos
    - Para Administradores:
    
       Utilizar Llamar siguiente para atender turnos
-      
+
       Consultar Ver cola para conocer el estado actual
+
+      Gestionar múltiples turnos simultáneamente
+
+9. Limitaciones y Mejoras Futuras
+    
+  - Limitaciones Actuales
+   
+      Interfaz por consola
+      
+      Sin persistencia de datos entre ejecuciones
+      
+      Un solo punto de atención simultáneo
+   
+  - Mejoras Planeadas
+   
+      Interfaz Gráfica
+      
+      Implementación con JavaFX o Swing
+      
+      Pantallas separadas para usuarios y administradores
+      
+  - Persistencia de Datos
+   
+      Almacenamiento en base de datos
+      
+      Histórico de turnos atendidos
+      
+      Estadísticas de uso
+   
+  - Funcionalidades Avanzadas
+    
+      Múltiples colas por servicio
+      
+      Estimación del tiempo de espera
+      
+      Notificaciones por SMS o correo electrónico
+      
+      Reservas anticipadas
+
+10. Autores
+    
+   - Equipo de Desarrollo:
+   
+      Antonio Málaga
+        
+      Max Mora
+      
+   Asignatura: Programación Orientada a Objetos
+   
+   Curso: 2025-2026
+
+
+
+   
+]
+
+
+         
       
       Gestionar múltiples turnos simultáneamente
 
