@@ -105,30 +105,31 @@ SmartQueue - Sistema de Gestión de Turnos
    
    Validación y Control de Errores
    
-      -Validación de selección de servicios
+      Validación de selección de servicios
    
       -Manejo de colas vacías
    
       -Control de entradas de usuario
 
 5. Diagramas UML
+   
    La carpeta diagramas/ contiene:
    
-   -Diagrama de Clases
+   - Diagrama de Clases
    
-   Muestra la estructura estática del sistema, las relaciones entre clases y sus atributos y métodos principales.
+      Muestra la estructura estática del sistema, las relaciones entre clases y sus atributos y métodos principales.
    
-   -Diagrama de Estados
+   - Diagrama de Estados
    
-   Representa los estados por los que pasa un turno:
+      Representa los estados por los que pasa un turno:
    
    PENDIENTE → LLAMADO → ATENDIDO
    
-   -Diagrama de Flujo
+   - Diagrama de Flujo
    
-   Ilustra el proceso completo desde la solicitud del turno hasta que el usuario es atendido.
+      Ilustra el proceso completo desde la solicitud del turno hasta que el usuario es atendido.
 
-6. Uso de Inteligencia Artificial
+7. Uso de Inteligencia Artificial
    
    Asistencia en el Desarrollo
    
@@ -176,59 +177,59 @@ SmartQueue - Sistema de Gestión de Turnos
    
    Documentado adecuadamente
 
-7. Principios de Programación Orientada a Objetos Implementados
+8. Principios de Programación Orientada a Objetos Implementados
    
    -Encapsulación:
    
-   Atributos con acceso controlado
+      Atributos con acceso controlado
+      
+      Métodos públicos para la interacción entre clases
+      
+      Ocultamiento de implementación interna
    
-   Métodos públicos para la interacción entre clases
+   - Composición:
    
-   Ocultamiento de implementación interna
+      GestorCola contiene una lista de objetos Turno
+      
+      Turno contiene referencias a Usuario y Servicio
+      
+      Relaciones “tiene-un” bien definidas
    
-   -Composición:
+   - Abstracción:
    
-   GestorCola contiene una lista de objetos Turno
+      Clases que representan entidades del mundo real
+      
+      Interfaces claras entre componentes
+      
+      Simplificación de la complejidad del sistema
    
-   Turno contiene referencias a Usuario y Servicio
+  - Gestión de Estados:
    
-   Relaciones “tiene-un” bien definidas
-   
-   Abstracción:
-   
-   Clases que representan entidades del mundo real
-   
-   Interfaces claras entre componentes
-   
-   Simplificación de la complejidad del sistema
-   
-   Gestión de Estados:
-   
-   Estados predefinidos para los turnos
-   
-   Transiciones controladas
-   
-   Validación de cambios de estado
+      Estados predefinidos para los turnos
+      
+      Transiciones controladas
+      
+      Validación de cambios de estado
 
 8. Instrucciones de Uso
    
   - Para Usuarios:
     
-   Ejecutar la aplicación
-   
-   Seleccionar la opción Pedir turno
-   
-   Elegir el servicio deseado
-   
-   Introducir el nombre
-   
-   Esperar a ser llamado
+      Ejecutar la aplicación
+      
+      Seleccionar la opción Pedir turno
+      
+      Elegir el servicio deseado
+      
+      Introducir el nombre
+      
+      Esperar a ser llamado
    
    - Para Administradores:
    
-   Utilizar Llamar siguiente para atender turnos
-   
-   Consultar Ver cola para conocer el estado actual
-   
-   Gestionar múltiples turnos simultáneamente
+      Utilizar Llamar siguiente para atender turnos
+      
+      Consultar Ver cola para conocer el estado actual
+      
+      Gestionar múltiples turnos simultáneamente
 
