@@ -280,14 +280,3 @@ SmartQueue - Sistema de Gestión de Turnos
    Asignatura: Programación Orientada a Objetos
    
    Curso: 2025-2026
-
-
-
-   
-]
-
-
-         
-      
-      Gestionar múltiples turnos simultáneamente
-
