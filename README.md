@@ -66,9 +66,40 @@ Lógica de aplicación:
 
 -Controlador.java: Coordina las interacciones entre modelo y vista
 
+-Estructura del proyecto 
 
-src/
-├── modelo/           # Clases de dominio y lógica de negocio
-├── vista/            # Interfaz de usuario
-├── controlador/      # Lógica de aplicación
-└── Main.java         # Punto de entrada
+src/modelo   Clases de dominio y lógica de negocio
+src/vista   Interfaz de usuario
+src/controlador   Lógica de aplicación
+src/main.java   Punto de entrada
+
+4. Funcionalidades Principales
+Solicitud de Turnos
+   -Selección entre múltiples servicios
+
+   -Asignación automática de número de turno
+
+   -Registro de usuario
+
+Gestión de Colas
+   -Sistema FIFO (First-In, First-Out)
+
+   -Visualización del estado actual de la cola
+
+   -Gestión de múltiples turnos en espera
+
+Llamada de Turnos
+   -Notificación cuando un turno es llamado
+
+   -Cambio automático de estados:
+
+       PENDIENTE → LLAMADO → ATENDIDO
+
+   -Gestión de turnos atendidos
+
+Validación y Control de Errores
+   -Validación de selección de servicios
+
+   -Manejo de colas vacías
+
+   -Control de entradas de usuario
