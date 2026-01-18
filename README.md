@@ -69,8 +69,11 @@ Lógica de aplicación:
 -Estructura del proyecto 
 
 src/modelo   Clases de dominio y lógica de negocio
+
 src/vista   Interfaz de usuario
+
 src/controlador   Lógica de aplicación
+
 src/main.java   Punto de entrada
 
 4. Funcionalidades Principales
@@ -107,3 +110,20 @@ Validación y Control de Errores
    -Manejo de colas vacías
 
    -Control de entradas de usuario
+
+5. Diagramas UML
+La carpeta diagramas/ contiene:
+
+Diagrama de Clases
+
+Muestra la estructura estática del sistema, las relaciones entre clases y sus atributos y métodos principales.
+
+Diagrama de Estados
+
+Representa los estados por los que pasa un turno:
+
+PENDIENTE → LLAMADO → ATENDIDO
+
+Diagrama de Flujo
+
+Ilustra el proceso completo desde la solicitud del turno hasta que el usuario es atendido.
