@@ -27,14 +27,14 @@ Terminal o IDE (VS Code, IntelliJ, Eclipse)
 
 Pasos de Ejecucion
 
-1. Navegar a la carpeta src/:
+-Navegar a la carpeta src/:
 cd src
 
-2. Compilar todos los archivos JAVA:
+-Compilar todos los archivos JAVA:
 
    javac -d . modelo/*.java vista/*.java controlador/*.java Main.java
 
-3. Ejecturar la aplicación:
+-Ejecturar la aplicación:
 
    java Main
 
@@ -74,6 +74,7 @@ src/controlador   Lógica de aplicación
 src/main.java   Punto de entrada
 
 4. Funcionalidades Principales
+   
 Solicitud de Turnos
    -Selección entre múltiples servicios
 
@@ -82,6 +83,7 @@ Solicitud de Turnos
    -Registro de usuario
 
 Gestión de Colas
+
    -Sistema FIFO (First-In, First-Out)
 
    -Visualización del estado actual de la cola
@@ -89,6 +91,7 @@ Gestión de Colas
    -Gestión de múltiples turnos en espera
 
 Llamada de Turnos
+
    -Notificación cuando un turno es llamado
 
    -Cambio automático de estados:
@@ -98,6 +101,7 @@ Llamada de Turnos
    -Gestión de turnos atendidos
 
 Validación y Control de Errores
+
    -Validación de selección de servicios
 
    -Manejo de colas vacías
