@@ -178,16 +178,16 @@ SmartQueue - Sistema de Gestión de Turnos
    Documentado adecuadamente
 
 8. Principios de Programación Orientada a Objetos Implementados
-   
-   -Encapsulación:
-   
+
+- Encapsulación
+  
       Atributos con acceso controlado
       
       Métodos públicos para la interacción entre clases
       
       Ocultamiento de implementación interna
    
-   - Composición:
+ - Composición:
    
       GestorCola contiene una lista de objetos Turno
       
@@ -195,7 +195,7 @@ SmartQueue - Sistema de Gestión de Turnos
       
       Relaciones “tiene-un” bien definidas
    
-   - Abstracción:
+ - Abstracción:
    
       Clases que representan entidades del mundo real
       
