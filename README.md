@@ -177,6 +177,7 @@ SmartQueue - Sistema de Gestión de Turnos
    Documentado adecuadamente
 
 7. Principios de Programación Orientada a Objetos Implementados
+   
    -Encapsulación:
    
    Atributos con acceso controlado
@@ -209,4 +210,25 @@ SmartQueue - Sistema de Gestión de Turnos
    
    Validación de cambios de estado
 
+8. Instrucciones de Uso
+   
+  - Para Usuarios:
+    
+   Ejecutar la aplicación
+   
+   Seleccionar la opción Pedir turno
+   
+   Elegir el servicio deseado
+   
+   Introducir el nombre
+   
+   Esperar a ser llamado
+   
+   - Para Administradores:
+   
+   Utilizar Llamar siguiente para atender turnos
+   
+   Consultar Ver cola para conocer el estado actual
+   
+   Gestionar múltiples turnos simultáneamente
 
