@@ -114,16 +114,64 @@ Validación y Control de Errores
 5. Diagramas UML
 La carpeta diagramas/ contiene:
 
-Diagrama de Clases
+-Diagrama de Clases
 
 Muestra la estructura estática del sistema, las relaciones entre clases y sus atributos y métodos principales.
 
-Diagrama de Estados
+-Diagrama de Estados
 
 Representa los estados por los que pasa un turno:
 
 PENDIENTE → LLAMADO → ATENDIDO
 
-Diagrama de Flujo
+-Diagrama de Flujo
 
 Ilustra el proceso completo desde la solicitud del turno hasta que el usuario es atendido.
+
+6. Uso de Inteligencia Artificial
+   
+Asistencia en el Desarrollo
+
+El proyecto utilizó asistencia de IA para:
+
+-Diseño de Arquitectura
+
+-Definición del patrón MVC
+
+-Organización de paquetes y dependencias
+
+-Implementación de Lógica Compleja:
+
+Algoritmo FIFO en GestorCola.java
+
+Gestión de estados en Turno.java
+
+Validación de entradas en Controlador.java
+
+-Optimización de Código
+
+-Mejora de legibilidad y mantenibilidad
+
+-Aplicación de buenas prácticas POO
+
+-Manejo de errores y casos límite
+
+-Documentación
+
+-Estructura del README
+
+-Comentarios en el código
+
+-Explicación de decisiones de diseño
+
+Justificación del Uso
+
+La IA se utilizó como herramienta de asistencia técnica, pero todo el código fue:
+
+Revisado y comprendido por el equipo
+
+Adaptado a las necesidades del proyecto
+
+Probado exhaustivamente
+
+Documentado adecuadamente
