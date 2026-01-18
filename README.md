@@ -66,6 +66,7 @@ Lógica de aplicación:
 
 -Controlador.java: Coordina las interacciones entre modelo y vista
 
+
 src/
 ├── modelo/           # Clases de dominio y lógica de negocio
 ├── vista/            # Interfaz de usuario
