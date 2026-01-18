@@ -1,6 +1,6 @@
 # SMART-QUEUE
 SmartQueue - Sistema de Gestión de Turnos
-1. Descripción del Proyecto
+1. DESCRIPCION DEL PROYECTO
 
 SmartQueue es una aplicación de escritorio desarrollada en Java que digitaliza la gestión de turnos en establecimientos comerciales, centros médicos y servicios públicos.
 El sistema asigna números de turno automáticamente, gestiona colas de espera y notifica a los usuarios cuando son llamados.
@@ -38,7 +38,7 @@ cd src
 
    java Main
 
-3. Arquitectura del Sistema
+3. ARQUTECTURA DEL SISTEMA
 
 Patrón Modelo–Vista–Controlador (MVC)
 
@@ -65,3 +65,9 @@ Controlador (controlador/)
 Lógica de aplicación:
 
 -Controlador.java: Coordina las interacciones entre modelo y vista
+
+src/
+├── modelo/           # Clases de dominio y lógica de negocio
+├── vista/            # Interfaz de usuario
+├── controlador/      # Lógica de aplicación
+└── Main.java         # Punto de entrada
