@@ -155,7 +155,7 @@ Flujo típico de uso:
          Seleccione servicio: 1
          Ingrese su nombre: Juan
          Ingrese su teléfono: 123456789
-         Turno creado exitosamenteç
+         Turno creado exitosamente
  
  2. Como Administrador:
     -     Seleccione: 2
