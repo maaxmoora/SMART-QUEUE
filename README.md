@@ -114,6 +114,7 @@ Compilar el proyecto:
 
 
 Ejecutar el proyecto:
+
 -Desde linea de comandos:
 -     cd src
 -     java main
@@ -128,3 +129,41 @@ Script para ejecutar (Mac/Linux ejecutar.sh)
 -     #!/bin/bash
       cd src
       java Main
+
+USAR LA APLICACIÓN
+-
+Al ejecutarlo verás:
+-         INICIANDO SMARTQUEUE 
+      Proyecto final de Programación Orientada a Objetos
+      Hecho por Antonio Malga y Max Mora
+
+      SMARTQUEUE
+      1. Soy cliente (pedir turno)
+      2. Soy administrador
+      3. Salir
+      Seleccione:
+
+Flujo típico de uso:
+1. Como cliente:
+   -     Seleccione: 1
+           SERVICIOS DISPONIBLES 
+         1. Atención al cliente (Gratis - 10 min)
+         2. Ventas (Gratis - 15 min)
+         3. Soporte técnico (Premium 25 euros - 30 min)
+         4. Consulta (Premium 15 euros - 20 min)
+         5. Volver atrás
+         Seleccione servicio: 1
+         Ingrese su nombre: Juan
+         Ingrese su teléfono: 123456789
+         Turno creado exitosamenteç
+ 
+ 2. Como Administrador:
+    -     Seleccione: 2
+             PANEL ADMINISTRADOR
+          1. Llamar siguiente turno
+          2. Ver cola actual
+          3. Ver estadisticas
+          4. Cancelar un turno
+          5. Volver atrás
+          Seleccione: 1
+          Turno #1 llamado para Juan
