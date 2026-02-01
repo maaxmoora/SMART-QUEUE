@@ -38,4 +38,4 @@ ARQUITECTURA DEL SISTEMA
        ├── controlador/
        │ ├── Sistema.java
        ├ 
-       └── Main.java # 
+       └── Main.java  
