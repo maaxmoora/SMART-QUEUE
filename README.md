@@ -19,7 +19,8 @@ SMARTQUEUE PRO -- Sistema Avanzado de Gestión de Turnos
 
  
 ARQUITECTURA DEL SISTEMA
--      SMARTQUEUE PRO
+-
+       SMARTQUEUE PRO
        README.md
         src/
        ├── modelo/ 
