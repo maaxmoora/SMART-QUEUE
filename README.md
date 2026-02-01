@@ -48,3 +48,21 @@ PRINCIPIOS POO IMPLEMENTADOS
   3. **Encapsulación** : Atributos privados/protegidos con getters y setters.
   4. **Abstracción** : Clases abstractas e interfaces.
   5. **Composición** : "GestorCola" contiene colecciones de "Turno".
+
+CÓMO EJECUTAR EL PROYECTO
+-
+ 1. Software necesario:
+    - JAVA JDK 11 o superior (recomendamos JDK 17)
+    - Git
+    - Cualquier editor de texto (VS Code, por ejemplo)
+
+ 2. Verificar instalación de Java:
+-     java -version
+-     javac -version
+  Debe mostrar algo como:
+-     java version "17.0.9" 2023-10-17 LTS
+      Java(TM) SE Runtime Environment (build 17.0.9+11-LTS-201)
+      Java HotSpot(TM) 64-Bit Server VM (build 17.0.9+11-LTS-201, mixed mode, sharing)
+
+
+  DESCARGAR EL PROYECTO
