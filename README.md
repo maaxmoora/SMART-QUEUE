@@ -40,3 +40,11 @@ ARQUITECTURA DEL SISTEMA
        │ ├── Sistema.java
        ├ 
        └── Main.java  
+
+PRINCIPIOS POO IMPLEMENTADOS
+-
+  1. **Herencia** : Persona --> Usuario y Administrador. Servicio--> ServicioGratuito y ServicioPremium.
+  2. **Polimorfismo** : Metodos abstractos, interfaces, sobrecarga de metodos.
+  3. **Encapsulación** : Atributos privados/protegidos con getters y setters.
+  4. **Abstracción** : Clases abstractas e interfaces.
+  5. **Composición** : "GestorCola" contiene colecciones de "Turno".
