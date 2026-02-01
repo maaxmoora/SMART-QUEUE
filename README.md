@@ -104,3 +104,27 @@ Asegúrate de tener esta estructura:
       │   └── Main.java               
       ├── README.md                    
       └── .gitignore                   
+
+Compilar el proyecto:
+-     # Navegar a la carpeta src
+-     cd src
+
+-     # Compilar todo el proyecto:
+-     javac -d . modelo/*.java vista/*.java controlador/*.java Main.java
+
+
+Ejecutar el proyecto:
+-Desde linea de comandos:
+-     cd src
+-     java main
+
+Script para ejecutar (Windows ejecutar.bat)
+-     @echo off
+      cd src
+      java Main
+      pause
+
+Script para ejecutar (Mac/Linux ejecutar.sh)
+-     #!/bin/bash
+      cd src
+      java Main
