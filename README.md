@@ -170,9 +170,12 @@ Flujo típico de uso:
 
 
 LICENCIA
+-
 - Este proyecto ha sido creado para fines educativos y aprendizaje.
 
 DESARROLLADORES
+-
+
 Proyecto final realizado en la asignatura Programación orientada a objetos, de la Carrera en Ciberseguridad de la Universidad de Barcelona
 - maaxmoora
 - tmalaga12 
