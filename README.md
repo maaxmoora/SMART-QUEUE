@@ -167,3 +167,12 @@ Flujo típico de uso:
           5. Volver atrás
           Seleccione: 1
           Turno #1 llamado para Juan
+
+
+LICENCIA
+- Este proyecto ha sido creado para fines educativos y aprendizaje.
+
+DESARROLLADORES
+Proyecto final realizado en la asignatura Programación orientada a objetos, de la Carrera en Ciberseguridad de la Universidad de Barcelona
+- maaxmoora
+- tmalaga12 
