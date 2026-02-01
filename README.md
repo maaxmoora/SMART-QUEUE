@@ -20,7 +20,7 @@ SMARTQUEUE PRO -- Sistema Avanzado de Gestión de Turnos
  
 ARQUITECTURA DEL SISTEMA
 -      SMARTQUEUE PRO
--       README.md
+       README.md
         src/
        ├── modelo/ 
        │ ├── Administrador.java
