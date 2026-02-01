@@ -1,4 +1,4 @@
-SMARTQUEUE PRO -- Sistema Avanzado de Gestiñon de Turnos
+SMARTQUEUE PRO -- Sistema Avanzado de Gestión de Turnos
 -
  
   DESCRIPCIÓN DEL PROYECTO
@@ -9,6 +9,12 @@ SMARTQUEUE PRO -- Sistema Avanzado de Gestiñon de Turnos
  CARACTERÍSTICAS PRINCIPALES
    -
 
-   - iN
+   - Interfaz gráfica con Swing
+   - Herencia completa entre clases
+   - Polimorfismo mediante clases abstractas e interfaces
+   - Encapsulación
+   - Gestión de excepciones personalizadas
+   - Sistema de estadistica en tiempo real
+   - Múltiples tipos de servicios (gratis y premium)
 
  
