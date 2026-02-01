@@ -65,4 +65,42 @@ CÓMO EJECUTAR EL PROYECTO
       Java HotSpot(TM) 64-Bit Server VM (build 17.0.9+11-LTS-201, mixed mode, sharing)
 
 
-  DESCARGAR EL PROYECTO
+DESCARGAR EL PROYECTOç
+-
+Opcion A: Desde GitHub
+-     Clonar el reposiorio:
+-     git clone https://github.com/maaxmoora/SMART-QUEUE.git
+
+-     Entrar en la carpeta
+-     cd SmartQueue
+
+Opción B: Decargar ZIP
+ 1. Descargar el ZIP del repositorio
+ 2. Extraer la carpeta SmartQueue
+ 3. Abrir la carpeta en tu editor
+
+Estructura del proyecto:
+- 
+Asegúrate de tener esta estructura:
+-     SmartQueue/
+      ├── diagramas/                    
+      │   ├── diagrama_clases.png
+      │   ├── diagrama_estados.png
+      │   └── diagrama_flujo.png
+      ├── src/                         
+      │   ├── modelo/                  
+      │   │   ├── Persona.java
+      │   │   ├── Usuario.java
+      │   │   ├── Administrador.java
+      │   │   ├── Servicio.java
+      │   │   ├── ServicioGratuito.java
+      │   │   ├── ServicioPremium.java
+      │   │   ├── Turno.java
+      │   │   └── GestorCola.java
+      │   ├── vista/                   
+      │   │   └── MenuConsola.java
+      │   ├── controlador/             
+      │   │   └── Sistema.java
+      │   └── Main.java               
+      ├── README.md                    
+      └── .gitignore                   
