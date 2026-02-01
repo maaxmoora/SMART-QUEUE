@@ -18,3 +18,24 @@ SMARTQUEUE PRO -- Sistema Avanzado de Gestión de Turnos
    - Múltiples tipos de servicios (gratis y premium)
 
  
+ARQUITECTURA DEL SISTEMA
+-      SMARTQUEUE PRO
+-       README.md
+        src/
+       ├── modelo/ 
+       │ ├── Administrador.java
+       │ ├── GestorCola.java
+       │ ├── Persona.java
+       │ ├── Servicio.java
+       │ ├── ServicioGratuito.java
+       │ ├── ServicioPremium.java
+       │ ├── Turno.java
+       │ ├── Usuario.java
+       │
+       ├── vista/
+       │ ├── MenuConsola.java
+       │  
+       ├── controlador/
+       │ ├── Sistema.java
+       ├ 
+       └── Main.java # 
